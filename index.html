@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="animate.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/03990c771c.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div class="header_container">
+            <div class="container">
+                <div class="navbar_logo">
+                    <a href="index.html" class="logo">
+                        <img src="./images/Group.png" alt="">
+                    </a>
+                </div>
+                <nav class="collapse">
+                    <div class="nav-bar" id="ftco-nav">
+                        <ul>
+                            <li><a href="#work" class="transition link">как работает</a></li>
+                            <li><a href="#service" class="transition link">услуги</a></li>
+                            <li><a href="#portfolio" class="transition link">портфолио</a></li>
+                            <li><a href="#product" class="transition link">продукты</a></li>
+                        </ul>
+                        <ul>
+                            <li>
+                                <a class="transition link">русский</a>
+                                <ul>
+                                    <li><a href="#" class="transition link">азербайджанский</a></li> 
+                                    <li><a href="#" class="transition link">английский</a></li> 
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+                <input type="checkbox" id="check">
+                <label for="check" class="checkbtn">
+                    <svg class="ham ham3" viewBox="0 0 100 100" width="40" onclick="this.classList.toggle('active')">
+                        <path class="line top" d="m 70,33 h -40 c -11.092231,0 11.883874,13.496726 -3.420361,12.956839 -0.962502,-2.089471 -2.222071,-3.282996 -4.545687,-3.282996 -2.323616,0 -5.113897,2.622752 -5.113897,7.071068 0,4.448316 2.080609,7.007933 5.555839,7.007933 2.401943,0 2.96769,-1.283974 4.166879,-3.282995 2.209342,0.273823 4.031294,1.642466 5.857227,-0.252538 v -13.005715 16.288404 h 7.653568" />
+                        <path class="line middle" d="m 70,50 h -40 c -5.6862,0 -8.534259,5.373483 -8.534259,11.551069 0,7.187738 3.499166,10.922274 13.131984,10.922274 11.021777,0 7.022787,-15.773343 15.531095,-15.773343 3.268142,0 5.177031,-2.159429 5.177031,-6.7 0,-4.540571 -1.766442,-7.33533 -5.087851,-7.326157 -3.321409,0.0092 -5.771288,2.789632 -5.771288,7.326157 0,4.536525 2.478983,6.805271 5.771288,6.7" />
+                        <path class="line bottom" d="m 70,67 h -40 c 0,0 -3.680675,0.737051 -3.660714,-3.517857 0.02541,-5.415597 3.391687,-10.357143 10.982142,-10.357143 4.048418,0 17.88928,0.178572 23.482143,0.178572 0,2.563604 2.451177,3.403635 4.642857,3.392857 2.19168,-0.01078 4.373905,-1.369814 4.375,-3.392857 0.0011,-2.023043 -1.924401,-2.589191 -4.553571,-4.107143 -2.62917,-1.517952 -4.196429,-1.799562 -4.196429,-3.660714 0,-1.861153 2.442181,-3.118811 4.196429,-3.035715 1.754248,0.0831 4.375,0.890841 4.375,3.125 2.628634,0 6.160714,0.267857 6.160714,0.267857 l -0.178571,-2.946428 10.178571,0 -10.178571,0 v 6.696428 l 8.928571,0 -8.928571,0 v 7.142858 l 10.178571,0 -10.178571,0" />
+                    </svg>
+                </label>  
+            </div>
+        </div>
+    </header>
+    <div class="jumbotron">
+        <div class="container">
+            <div class="bg1"><img src="./images/elements/Group.png" alt=""></div>
+            <div class="bg2"><img src="./images/elements/Group 10 (1).png" alt=""></div>
+            <div class="text_area wow fadeInLeft">
+                <h1 >Мы проектируем и создаем цифровые продукты и бренды</h1>
+                <p >Мы проектируем и создаем цифровые продукты, бренды и опыт</p>
+                <div class="social_icons">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#"><i class="fab fa-github"></i></a>
+                </div>
+            </div>
+            <div class="bg3 wow fadeInRight"><img src="./images/team/1.png" alt="" ></div>
+            <div class="bg4 wow fadeInRight" ><img src="./images/team/2.png" alt="" ></div>
+            <div class="bg5 wow fadeInRight"><img src="./images/team/3.png" alt="" ></div>
+            <a href="#work"><div class="scrool_animation"><p>скролл</p></div></a>
+        </div>
+    </div>
+    <div class="work" id="work">
+        <div class="container">
+            <h2>Как работает</h2>
+            <div class="steps">
+                <div class="step">
+                    <p>техническое задание</p>
+                    <img src="./images/team/4.png" alt="">
+                </div>
+                <div class="step">
+                    <p>создание и утверждение дизайна</p>
+                    <img src="./images/team/7.png" alt="">
+                </div>
+                <div class="step">
+                    <p>разработка сайта и админки</p>
+                    <img src="./images/team/6.png" alt="">
+                </div>
+                <div class="step">
+                    <p>тестирование</p>
+                    <img src="./images/team/5.png" alt="">
+                </div>
+                <div class="step">
+                    <p >запуск проекта</p>
+                    <img src="./images/team/8.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="service" id="service">
+        <div class="container">
+            <h2>Наши услуги</h2>
+        </div>
+        <div class="service_area">
+            <div class="design sr">
+                <img src="./images/team/Layer 2.png" alt="" class="layer1">
+                <img src="./images/team/Layer 3.png" alt="" class="layer2">
+                <div class="service_text">
+                    <h3>Брендинг</h3>
+                    <p>Господа, дальнейшее развитие различных форм деятельности обеспечивает актуальность экономической целесообразности принимаемых решений.</p>
+                </div>
+            </div>
+            <div class="ser_block"> 
+                <div class="web sr">
+                    <div class="service_text">
+                        <h3>Веб</h3>
+                        <p>Как принято считать, интерактивные прототипы превращены в посмешище, хотя само их существование приносит несомненную пользу обществу! </p>
+                    </div>
+                </div>
+                <div class="mob sr">
+                    <div class="service_text">
+                        <h3>Приложение</h3>
+                        <p>Повседневная практика показывает, что синтетическое тестирование однозначно определяет каждого участника как способного принимать собственные решения касаемо.</p>
+                    </div>
+                </div>
+                <div class="it sr">
+                    <div class="service_text">
+                        <h3>ИТ</h3>
+                        <p>Как уже неоднократно упомянуто, базовые сценарии поведения пользователей освещают чрезвычайно интересные особенности картины в целом, однако конкретные выводы..</p>
+                    </div>
+                </div>
+                <div class="seo sr">
+                    <div class="service_text">
+                        <h3>Сео</h3>
+                        <p>В своём стремлении улучшить пользовательский опыт мы упускаем, что непосредственные участники технического прогресса освещают чрезвычайно интересные особенности.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio" id="portfolio">
+        <div class="container">
+            <h2>Портфолио</h2>
+            <div class="portfolio_area">
+                <a href="#">
+                    <div class="portfolio_box">
+                        <div class="portfolio_box_inner">
+                            <div class="portfolio_box_front">
+                                <img src="./images/team/9.png" alt="">
+                            </div>
+                            <div class="portfolio_box_back">
+                                <h4>TITLE</h4>
+                                    <p>Как уже неоднократно упомянуто, многие известные личности освещают чрезвычайно интересные особенности картины в целом, однако конкретные выводы, разумеется, объявлены нарушающими общечеловеческие нормы этики и морали!</p>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="product" id="product">
+        <div class="container">
+            <h2>Наши продукты</h2>
+            <div class="product_area">
+                <a href="#"> 
+                    <div class="product_box">
+                        <div class="product_box_inner">
+                            <div class="product_box_front">
+                                <img src="./images/team/10.png" alt="">
+                            </div>
+                            <div class="product_box_back">
+                                <h4>TITLE</h4>
+                                <p>Как уже неоднократно упомянуто, многие известные личности освещают чрезвычайно интересные особенности картины в целом, однако конкретные выводы, разумеется, объявлены нарушающими общечеловеческие нормы этики и морали!</p>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+  
+    <footer>
+        <div class="footer_container">
+            <div class="container">
+                <div class="navbar_logo">
+                    <a href="index.html" class="logo">
+                        <img src="./images/logo_black.png" alt="">
+                    </a>
+                </div>
+                <div class="nav-bar">
+                    <ul>
+                        <li><a href="#work">как работает</a></li>
+                        <li><a href="#service">услуги</a></li>
+                        <li><a href="#portfolio">портфолио</a></li>
+                        <li><a href="#product">продукты</a></li>
+                    </ul>
+                </div>
+                <div class="social_icons">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#"><i class="fab fa-github"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="burger.js"></script>
+    <script src="wow.min.js"></script>
+              <script>
+              new WOW().init();
+              </script>
+    
+</body>
+</html>
