@@ -1,6 +1,6 @@
 $(document).ready(function(){
 
-    if(screen.width<=768){
+    if(screen.width<768){
         $('.checkbtn').click(function(){
         if($('#check').prop('checked')==false){
             $('.collapse').show();
