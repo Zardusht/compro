@@ -201,6 +201,15 @@
     .text_area p {
         width: auto;
     }
+    .design .service_text {
+        width: 100%;
+        padding: 20px;
+        box-sizing: border-box;
+    }
+    .design .service_text p {
+        width: 100%;
+        height: auto;
+    }
 }
 @media only screen and (max-width: 411px) {
     .ser_block .sr {
