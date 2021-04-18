@@ -202,9 +202,16 @@
         width: auto;
     }
     .design .service_text {
-        width: 100%;
+        width: 50%;
         padding: 20px;
         box-sizing: border-box;
+    }
+    .design {
+        height: 267px;
+        width: 100%;
+        overflow-x: hidden;
+        justify-content: flex-start;
+        align-items: flex-start;
     }
     .design .service_text p {
         width: 100%;
